@@ -10,12 +10,14 @@ function App() {
   return (
     <div className="text-base leading-base text-blue-950 min-h-screen bg-white">
       <Header />
-      <HeroSection />
-      
-      <FeaturesSection />
-      <DownloadSection />
-      <FAQSection />
-      <CTASection />
+
+      <main>
+        <HeroSection />
+        <FeaturesSection />
+        <DownloadSection />
+        <FAQSection />
+        <CTASection />
+      </main>
 
       <Footer />
     </div>

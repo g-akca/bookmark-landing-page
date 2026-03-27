@@ -11,7 +11,7 @@ function App() {
     <div className="text-base leading-base text-blue-950 min-h-screen bg-white">
       <Header />
 
-      <main>
+      <main className="flex flex-col gap-32">
         <HeroSection />
         <FeaturesSection />
         <DownloadSection />

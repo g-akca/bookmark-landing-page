@@ -19,7 +19,7 @@ function FAQList() {
   return (
     <div>
       {items.map(item => (
-        <FAQItem {...item} />
+        <FAQItem key={item.question} {...item} />
       ))}
     </div>
   )

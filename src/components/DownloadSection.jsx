@@ -34,7 +34,7 @@ function DownloadSection() {
 
       <div className="px-4 flex flex-col gap-10">
         {items.map(item => (
-          <DownloadItem {...item} />
+          <DownloadItem key={item.name} {...item} />
         ))}
       </div>
     </section>

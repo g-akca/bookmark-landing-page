@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="flex justify-between items-center px-8 py-10">
       <a href="#">
-        <img src={bookmarkLogo} alt="Logo saying bookmark" />
+        <img src={bookmarkLogo} alt="Bookmark logo" />
       </a>
       
       <button type="button" className="cursor-pointer">

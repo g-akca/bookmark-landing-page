@@ -10,16 +10,27 @@ function FeaturesSection() {
         <p className="text-[15px] leading-[165%] opacity-50">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
       </div>
 
-      <div className="flex flex-col gap-11 px-8">
-        <div>
-          <p>Simple Bookmarking</p>
-          <p>Speedy Searching</p>
-          <p>Easy Sharing</p>
+      <div className="flex flex-col gap-11">
+        <div className="px-8 grid grid-rows-[repeat(3,60px)] text-[15px] leading-[165%] text-center border-t border-[rgba(73,93,207,0.2)]">
+          <p 
+            className="
+              relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] 
+              after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 
+              after:h-1 after:w-40.75 after:bg-red-400"
+          >
+            Simple Bookmarking
+          </p>
+          <p className="flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] opacity-75">
+            Speedy Searching
+          </p>
+          <p className="flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] opacity-75">
+            Easy Sharing
+          </p>
         </div>
 
-        <div>
-          <img src={tab1Illust} alt="Screen illustration" />
-          <div className="bg-blue-600" />
+        <div className="relative px-8 pb-9">
+          <img src={tab1Illust} alt="Screen illustration" className="relative z-10" />
+          <div className="bg-blue-600 absolute left-0 bottom-0 w-[80%] h-[85%] rounded-r-full" />
         </div>
       </div>
 

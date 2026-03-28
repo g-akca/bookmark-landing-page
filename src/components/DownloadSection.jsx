@@ -1,6 +1,28 @@
 import DownloadItem from "./DownloadItem";
 
+import chromeLogo from "/images/logo-chrome.svg";
+import firefoxLogo from "/images/logo-firefox.svg";
+import operaLogo from "/images/logo-opera.svg";
+
 function DownloadSection() {
+  const items = [
+    {
+      img: chromeLogo,
+      name: "Chrome",
+      ver: "62"
+    },
+    {
+      img: firefoxLogo,
+      name: "Firefox",
+      ver: "55"
+    },
+    {
+      img: operaLogo,
+      name: "Opera",
+      ver: "46"
+    }
+  ];
+
   return (
     <section className="px-8 text-center flex flex-col gap-10">
       <div className="flex flex-col gap-4">
@@ -11,9 +33,9 @@ function DownloadSection() {
       </div>
 
       <div className="px-4 flex flex-col gap-10">
-        <DownloadItem />
-        <DownloadItem />
-        <DownloadItem />
+        {items.map(item => (
+          <DownloadItem {...item} />
+        ))}
       </div>
     </section>
   )

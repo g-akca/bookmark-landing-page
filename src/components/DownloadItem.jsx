@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function DownloadItem({ img, name, ver }) {
   return (
-    <div className="py-8 flex flex-col gap-6">
+    <div className="py-8 flex flex-col gap-6 bg-white shadow-[0_10px_20px_rgba(73,93,207,0.05)] rounded-[15px]">
       <div className="flex flex-col gap-8 items-center">
         <img src={img} alt={`${name} logo`} className="h-25" />
         <div className="flex flex-col gap-2">

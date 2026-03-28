@@ -1,11 +1,12 @@
-import logo from "/images/logo-bookmark.svg";
 import facebookIcon from "/images/icon-facebook.svg";
 import twitterIcon from "/images/icon-twitter.svg";
+
+import BookmarkLogo from "./BookmarkLogo";
 
 function Footer() {
   return (
     <footer className="bg-blue-950 py-8 flex flex-col items-center gap-12 text-white">
-      <img src={logo} alt="Bookmark logo" />
+      <BookmarkLogo className="text-white" />
 
       <ul className="flex flex-col text-center gap-6 text-[15px] leading-[165%] uppercase">
         <li><a>Features</a></li>

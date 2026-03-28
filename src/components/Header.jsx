@@ -1,11 +1,11 @@
-import bookmarkLogo from "/images/logo-bookmark.svg";
+import BookmarkLogo from "./BookmarkLogo";
 import hamburgerIcon from "/images/icon-hamburger.svg";
 
 function Header() {
   return (
     <header className="flex justify-between items-center px-8 py-10">
       <a href="#">
-        <img src={bookmarkLogo} alt="Bookmark logo" />
+        <BookmarkLogo />
       </a>
       
       <button type="button" className="cursor-pointer">

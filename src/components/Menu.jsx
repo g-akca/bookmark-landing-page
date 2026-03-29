@@ -13,7 +13,7 @@ function Menu({ closeMenu }) {
       <div className="relative z-30 h-full px-8 py-10 flex flex-col justify-between">
         <div className="flex flex-col gap-10">
           <div className="flex justify-between items-center">
-            <BookmarkLogo className="text-white" />
+            <BookmarkLogo textColor="white" bgColor="white" iconColor="#242A45" />
 
             <button type="button" onClick={closeMenu}>
               <img src={closeIcon} alt="Close icon" />

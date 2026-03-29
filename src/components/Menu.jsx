@@ -21,11 +21,13 @@ function Menu({ closeMenu }) {
           </div>
 
           <div className="flex flex-col gap-6 tablet:gap-8">
-            <ul className="flex flex-col text-center text-white uppercase text-[20px] leading-4.25 tracking-[2.31px]">
-              <li className="py-6 tablet:py-8 border-b border-[rgba(255,255,255,0.15)] border-t"><a>Features</a></li>
-              <li className="py-6 tablet:py-8 border-b border-[rgba(255,255,255,0.15)]"><a>Pricing</a></li>
-              <li className="py-6 tablet:py-8 border-b border-[rgba(255,255,255,0.15)]"><a>Contact</a></li>
-            </ul>
+            <nav>
+              <ul className="flex flex-col text-center text-white uppercase text-[20px] leading-4.25 tracking-[2.31px]">
+                <li className="py-6 tablet:py-8 border-b border-[rgba(255,255,255,0.15)] border-t"><a>Features</a></li>
+                <li className="py-6 tablet:py-8 border-b border-[rgba(255,255,255,0.15)]"><a>Pricing</a></li>
+                <li className="py-6 tablet:py-8 border-b border-[rgba(255,255,255,0.15)]"><a>Contact</a></li>
+              </ul>
+            </nav>
 
             <Button className="uppercase text-white border-2 border-white text-[20px] leading-4.25 tracking-[2.31px] py-0.5!">
               Login

@@ -5,7 +5,7 @@ import hamburgerIcon from "/images/icon-hamburger.svg";
 
 function Header({ openMenu }) {
   return (
-    <header className="flex justify-between items-center px-8 py-10 tablet:px-20 desktop:py-12 desktop:px-42.75">
+    <header className="flex justify-between items-center px-8 py-10 tablet:px-20 desktop:py-12 desktop:px-42.75 desktop:mb-14">
       <a href="#">
         <BookmarkLogo />
       </a>

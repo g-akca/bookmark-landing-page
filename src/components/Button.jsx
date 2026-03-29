@@ -1,6 +1,6 @@
 function Button({ className, children }) {
   return (
-    <button type="button" className={`rounded-[5px] px-1 py-2 text-[15px] font-medium leading-[200%] cursor-pointer ${className}`}>
+    <button type="button" className={`rounded-[5px] px-1 py-2 text-[15px] font-medium leading-[200%] cursor-pointer transition-colors hover:bg-transparent hover:outline-2 ${className}`}>
       {children}
     </button>
   )

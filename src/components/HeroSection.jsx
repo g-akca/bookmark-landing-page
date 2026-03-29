@@ -17,10 +17,10 @@ function HeroSection() {
         </p>
 
         <div className="flex justify-center gap-4 desktop:justify-start">
-          <Button className="max-w-41.5 grow bg-blue-600 text-white tablet:text-[14px]">
+          <Button className="max-w-41.5 grow bg-blue-600 text-white tablet:text-[14px] hover:text-blue-600 hover:outline-blue-600">
             Get it on Chrome
           </Button>
-          <Button className="max-w-41.5 grow bg-grey-50 text-blue-950 tablet:text-[14px]">
+          <Button className="max-w-41.5 grow bg-grey-50 text-grey-600 tablet:text-[14px] hover:outline-grey-600">
             Get it on Firefox
           </Button>
         </div>

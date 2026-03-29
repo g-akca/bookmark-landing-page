@@ -16,10 +16,15 @@ function Header({ openMenu }) {
 
       <nav className="hidden desktop:block">
         <ul className="flex flex-row items-center gap-12 uppercase text-[14px] leading-[200%] tracking-[0.25px]">
-          <li><a>Features</a></li>
-          <li><a>Pricing</a></li>
-          <li><a>Contact</a></li>
-          <li><Button className="uppercase text-[14px] leading-[200%] tracking-[0.25px] font-normal text-white bg-red-400 px-8.25 py-1.25!">Login</Button></li>
+          <li><a href="#" className="hover:text-red-400 transition-all">Features</a></li>
+          <li><a href="#" className="hover:text-red-400 transition-all">Pricing</a></li>
+          <li><a href="#" className="hover:text-red-400 transition-all">Contact</a></li>
+          <li><Button 
+            className="uppercase text-[14px] leading-[200%] tracking-[0.25px] font-normal text-white bg-red-400 
+            px-8.25 py-1.25! hover:text-red-400 hover:outline-red-400"
+          >
+            Login
+          </Button></li>
         </ul>
       </nav>
     </header>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import arrowIcon from "/images/icon-arrow.svg";
+import ArrowIcon from "./ArrowIcon";
 
 function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false);
@@ -9,7 +9,7 @@ function FAQItem({ question, answer }) {
     <div className="py-4 border-b border-[rgba(36,42,69,0.15)] first-of-type:border-t flex flex-col gap-4">
       <button type="button" onClick={() => setOpen(prev => !prev)} className="flex justify-between items-center">
         <p className="text-[15px] leading-[165%] tablet:text-base tablet:leading-base">{question}</p>
-        <img src={arrowIcon} alt="Arrow icon" className={open ? "rotate-180" : "rotate-0"} />
+        <ArrowIcon className={open ? "rotate-180 text-red-400" : "rotate-0 text-blue-600"} />
       </button>
 
       {open && (

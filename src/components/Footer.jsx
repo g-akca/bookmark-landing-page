@@ -11,9 +11,9 @@ function Footer() {
 
         <nav>
           <ul className="flex flex-col text-center gap-6 text-[15px] leading-[165%] uppercase tablet:flex-row tablet:text-[14px] tablet:leading-[200%] desktop:gap-12">
-            <li><a>Features</a></li>
-            <li><a>Pricing</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#" className="transition-all hover:text-red-400">Features</a></li>
+            <li><a href="#" className="transition-all hover:text-red-400">Pricing</a></li>
+            <li><a href="#" className="transition-all hover:text-red-400">Contact</a></li>
           </ul>
         </nav>
       </div>

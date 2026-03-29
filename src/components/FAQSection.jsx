@@ -12,7 +12,7 @@ function FAQSection() {
       
       <FAQList />
 
-      <Button className="w-28.5 bg-blue-600 text-white self-center tablet:text-[14px] tablet:leading-[200%] tablet:py-2.5">
+      <Button className="w-28.5 bg-blue-600 text-white self-center tablet:text-[14px] tablet:leading-[200%] tablet:py-2.5 hover:text-blue-600 hover:outline-blue-600">
         More Info
       </Button>
     </section>

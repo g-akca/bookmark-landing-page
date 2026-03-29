@@ -24,15 +24,15 @@ function DownloadSection() {
   ];
 
   return (
-    <section className="px-8 text-center flex flex-col gap-10 tablet:px-20 tablet:gap-16">
-      <div className="flex flex-col gap-4 tablet:px-9">
+    <section className="px-8 max-w-226 text-center self-center flex flex-col items-center gap-10 tablet:px-20 tablet:gap-16 desktop:gap-12 desktop:px-0">
+      <div className="max-w-152 flex flex-col gap-4 tablet:px-9">
         <h2 className="font-medium text-[30px] leading-[135%] tablet:text-[32px] tablet:leading-[125%]">Download the extension</h2>
         <p className="opacity-50 text-[15px] leading-[165%] tablet:text-base tablet:leading-base">
           We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.
         </p>
       </div>
 
-      <div className="px-4 flex flex-col gap-10 tablet:px-0 tablet:flex-row tablet:gap-2">
+      <div className="px-4 flex flex-col gap-10 tablet:px-0 tablet:flex-row tablet:gap-2 desktop:gap-8 desktop:h-112.75 desktop:items-center">
         {items.map(item => (
           <DownloadItem key={item.name} {...item} />
         ))}

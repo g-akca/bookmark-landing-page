@@ -1,4 +1,4 @@
-import BookmarkLogo from "./BookmarkLogo";
+import BookmarkLogo from "./icons/BookmarkLogo";
 import Button from "./Button";
 
 import closeIcon from "/images/icon-close.svg";

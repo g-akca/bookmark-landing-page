@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import ArrowIcon from "./ArrowIcon";
+import ArrowIcon from "./icons/ArrowIcon";
 
 function FAQItem({ question, answer }) {
   const [open, setOpen] = useState(false);

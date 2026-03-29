@@ -16,7 +16,7 @@ function DownloadItem({ img, name, ver }) {
 
       <img src={dotsImg} alt="Dots" />
 
-      <Button className="px-8 bg-blue-600 text-white self-center tablet:text-[14px] tablet:leading-[200%] tablet:px-3 tablet:py-1 desktop:px-8 desktop:py-2.5">
+      <Button className="px-8 bg-blue-600 text-white self-center tablet:text-[14px] tablet:leading-[200%] tablet:px-3 tablet:py-1 desktop:px-8 desktop:py-2.5 hover:text-blue-600 hover:outline-blue-600">
         Add & Install Extension
       </Button>
     </div>

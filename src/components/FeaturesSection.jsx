@@ -39,7 +39,7 @@ function FeaturesSection() {
           type="button" 
           onClick={() => setTab(0)}
           className={`
-            relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] tablet:pb-7
+            relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] tablet:pb-7 cursor-pointer transition-all hover:text-red-400
             ${tab === 0 ? "after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-1 after:w-40.75 after:bg-red-400 tablet:after:w-full" : "opacity-75"}
           `}
         >
@@ -49,7 +49,7 @@ function FeaturesSection() {
           type="button" 
           onClick={() => setTab(1)} 
           className={`
-            relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] tablet:pb-7
+            relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] tablet:pb-7 cursor-pointer transition-all hover:text-red-400
             ${tab === 1 ? "after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-1 after:w-40.75 after:bg-red-400 tablet:after:w-full" : "opacity-75"}
           `}
         >
@@ -59,7 +59,7 @@ function FeaturesSection() {
           type="button" 
           onClick={() => setTab(2)} 
           className={`
-            relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] tablet:pb-7
+            relative flex items-center justify-center border-b border-[rgba(73,93,207,0.2)] tablet:pb-7 cursor-pointer transition-all hover:text-red-400
             ${tab === 2 ? "after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-1 after:w-40.75 after:bg-red-400 tablet:after:w-full" : "opacity-75"}
           `}
         >
@@ -79,13 +79,11 @@ function FeaturesSection() {
             <p className="text-[15px] leading-[165%] opacity-50 tablet:text-base tablet:leading-base">{tabs[tab].description}</p>
           </div>
 
-          <Button className="w-28.5 bg-blue-600 text-white tablet:text-[14px]">
+          <Button className="w-28.5 bg-blue-600 text-white tablet:text-[14px] hover:text-blue-600 hover:outline-blue-600">
             More Info
           </Button>
         </div>
       </div>
-
-      
     </section>
   )
 }
